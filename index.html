@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI×英語コーチング | Gen AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+JP:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0d9488 0%, #06b6d4 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #0d9488 0%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        .animate-fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .cta-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(13, 148, 136, 0.7); }
+            50% { box-shadow: 0 0 0 20px rgba(13, 148, 136, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20 px-6 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        <div class="max-w-6xl mx-auto text-center relative z-10 animate-fade-in">
+            <p class="text-xl md:text-2xl font-semibold mb-4 opacity-90">【英語学習 無料相談受付中】</p>
+            <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">AI × 英語コーチング</h1>
+            <p class="text-2xl md:text-3xl mb-12 font-light">最短で「自立した英語学習者」になるためのロードマップ</p>
+            <a href="https://lin.ee/ColWYJw" class="inline-block bg-white text-teal-600 px-12 py-5 rounded-full text-xl font-bold hover:bg-gray-100 transition-all cta-pulse">
+                無料相談を予約する
+            </a>
+            <p class="mt-8 text-lg md:text-xl font-bold opacity-90">株式会社Gen AI</p>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                なぜ日本人は英語ができないのか？
+            </h2>
+            <div class="space-y-8">
+                <div class="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    <p class="mb-6">世界一の平均IQ、学習塾、英会話スクール、サブスク、参考書…</p>
+                    <p class="mb-8"><strong class="text-teal-600">教材のバリエーションは豊富</strong>なのに、なぜ上達しない？</p>
+                </div>
+                <div class="bg-gradient-to-r from-red-50 to-red-100 border-l-8 border-red-500 p-8 rounded-lg shadow-lg">
+                    <p class="text-3xl font-bold text-red-700 mb-4">根本的な原因</p>
+                    <p class="text-xl text-gray-800">教材の充実の前に、<strong class="text-red-600">「持続的な勉強法」が確立されていない</strong>から。</p>
+                </div>
+                <div class="text-xl md:text-2xl text-gray-700 text-center py-8">
+                    <p>言語は継続すれば必ず上達する →</p>
+                    <p class="mt-2"><strong class="text-red-600 text-2xl">現行のサービスでは「継続」ができない証拠</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 px-6 bg-gradient-to-br from-teal-50 to-cyan-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-800">
+                Gen AIが提供する革新的なサービス
+            </h2>
+            <div class="space-y-8">
+                <p class="text-xl md:text-2xl text-center text-gray-700">
+                    私たちGen AIは、<strong class="text-teal-600">「継続」にフォーカスしたコンサルティング</strong>が最適解だと考えます。
+                </p>
+                <div class="bg-gradient-to-r from-teal-600 to-cyan-600 text-white p-10 rounded-2xl shadow-2xl">
+                    <p class="text-3xl md:text-4xl font-black mb-6">超ユーザー視点の革新</p>
+                    <p class="text-xl mb-4">継続契約を要求する他サービスとは一線を画し、<strong>最短での「自立」</strong>をゴールとする。</p>
+                    <p class="text-lg opacity-90">今までにない、全く新しい教育サポートを実現します。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                選ばれる3つの理由
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover-lift border-t-4 border-teal-500">
+                    <div class="text-5xl mb-4">💪</div>
+                    <h3 class="text-2xl font-bold mb-4 text-teal-700">自学自習の力</h3>
+                    <p class="text-gray-700">授業を受けるサービスよりも、<strong>自分で勉強するから一番力がつく</strong>。ラーニングスピードが飛躍的に向上！</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover-lift border-t-4 border-cyan-500">
+                    <div class="text-5xl mb-4">💰</div>
+                    <h3 class="text-2xl font-bold mb-4 text-cyan-700">圧倒的コスパ</h3>
+                    <p class="text-gray-700">入会費・教材費が必要な他サービスの<strong>1/3以下の費用</strong>で完結する格安プラン！</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover-lift border-t-4 border-blue-500">
+                    <div class="text-5xl mb-4">⚡</div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-700">フレキシビリティ</h3>
+                    <p class="text-gray-700"><strong>ユーザー中心のタイムマネジメント＋チャット中心のサポート</strong>で高い利便性を実現！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="py-20 px-6 bg-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                圧倒的コストパフォーマンス
+            </h2>
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <table class="w-full text-center">
+                    <thead>
+                        <tr class="bg-gradient-to-r from-gray-700 to-gray-800 text-white">
+                            <th class="py-6 px-4 text-xl font-bold">項目</th>
+                            <th class="py-6 px-4 text-xl font-bold bg-blue-600">一般的なサービス</th>
+                            <th class="py-6 px-4 text-xl font-bold bg-teal-600">Gen AI コーチング</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-lg">
+                        <tr class="border-b">
+                            <td class="py-6 px-4 font-semibold bg-gray-50">教材費用</td>
+                            <td class="py-6 px-4 bg-blue-50 text-blue-700 font-bold">高額<br>(数万円〜数十万円)</td>
+                            <td class="py-6 px-4 bg-teal-50 text-teal-700 font-bold">市販価格<br>(数千円程度)</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-6 px-4 font-semibold bg-gray-50">授業料の構成</td>
+                            <td class="py-6 px-4 bg-blue-50">校舎・設備・教材費用が上乗せ</td>
+                            <td class="py-6 px-4 bg-teal-50 font-bold">コーチング代のみ</td>
+                        </tr>
+                        <tr>
+                            <td class="py-6 px-4 font-semibold bg-gray-50">結果</td>
+                            <td class="py-6 px-4 bg-blue-50 text-red-600">コスト高</td>
+                            <td class="py-6 px-4 bg-teal-50 text-teal-700 font-bold text-xl">安価に設定可能</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-10 text-2xl font-bold text-center text-teal-700">
+                必要なのは「正しい学習法」と「継続のサポート」<br>
+                <span class="text-3xl">高価な教材は不要です。</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                AI × デジタルツールで効率化
+            </h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-bold text-teal-700 mb-6">📥 インプット</h3>
+                    <div class="bg-teal-50 p-6 rounded-xl border-l-4 border-teal-500">
+                        <h4 class="text-xl font-bold mb-3 text-teal-800">リスニング</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ 拡張機能 × YouTubeを活用</li>
+                            <li>✓ シャドウイング、シラブル法を指導</li>
+                        </ul>
+                    </div>
+                    <div class="bg-cyan-50 p-6 rounded-xl border-l-4 border-cyan-500">
+                        <h4 class="text-xl font-bold mb-3 text-cyan-800">単語</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ <strong>天才英単語（無料）</strong></li>
+                            <li>✓ 面談での確認テスト実施</li>
+                            <li>✓ 合格基準：8割以上</li>
+                        </ul>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500">
+                        <h4 class="text-xl font-bold mb-3 text-blue-800">文法</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ サイトまたは市販テキスト</li>
+                            <li>✓ 学習した文型を管理 → 確認テスト</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-bold text-purple-700 mb-6">📤 アウトプット</h3>
+                    <div class="bg-purple-50 p-6 rounded-xl border-l-4 border-purple-500">
+                        <h4 class="text-xl font-bold mb-3 text-purple-800">リーディング／ライティング</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ 適切なレベルの長文を選定</li>
+                            <li>✓ <strong>ChatGPT</strong>で翻訳・文法分析</li>
+                            <li>✓ 何度も音読（英語脳を作る）</li>
+                        </ul>
+                    </div>
+                    <div class="bg-pink-50 p-6 rounded-xl border-l-4 border-pink-500">
+                        <h4 class="text-xl font-bold mb-3 text-pink-800">スピーキング</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ <strong>AI会話機能</strong>で週20〜30分</li>
+                            <li>✓ 一週間の学習内容をアウトプット</li>
+                            <li>✓ <strong>LINE経由でフィードバック</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 px-6 bg-gradient-to-br from-gray-800 to-gray-900 text-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                安心の料金体系
+            </h2>
+            <div class="bg-white text-gray-800 rounded-2xl shadow-2xl overflow-hidden">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gradient-to-r from-teal-600 to-cyan-600 text-white">
+                            <th class="py-6 px-6 text-2xl font-bold">コース</th>
+                            <th class="py-6 px-6 text-2xl font-bold">期間</th>
+                            <th class="py-6 px-6 text-2xl font-bold">料金（税抜）</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-xl text-center">
+                        <tr class="border-b">
+                            <td class="py-8 px-6 font-bold text-teal-700 text-2xl">基本コース</td>
+                            <td class="py-8 px-6">3ヶ月</td>
+                            <td class="py-8 px-6 font-bold text-3xl text-teal-600">¥70,000</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td class="py-8 px-6 font-bold text-gray-700">延長(オプション)</td>
+                            <td class="py-8 px-6">1ヶ月ごと</td>
+                            <td class="py-8 px-6 font-bold text-2xl">¥20,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-10 text-xl font-bold text-center text-yellow-300">
+                ※ 延長は希望者のみ。<span class="text-2xl">自動更新なし</span>の都度再契約で安心。
+            </p>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                活用サイクル
+            </h2>
+            <div class="space-y-8">
+                <div class="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl border-l-8 border-teal-500 shadow-lg">
+                    <p class="text-2xl font-bold mb-3 text-teal-800">フェーズ1: 3ヶ月のコーチング</p>
+                    <p class="text-lg text-gray-700">学習習慣、学習方法、AIツールの使い方を徹底的に身につける</p>
+                </div>
+                <div class="text-center text-5xl text-teal-600 font-bold">↓</div>
+                <div class="bg-gradient-to-r from-yellow-50 to-yellow-100 p-8 rounded-xl border-l-8 border-yellow-500 shadow-lg">
+                    <p class="text-2xl font-bold mb-3 text-yellow-800">フェーズ2: 自立（自学自習）</p>
+                    <p class="text-lg text-gray-700">学んだスキルを活かし、自分で継続学習する</p>
+                </div>
+                <div class="text-center text-5xl text-teal-600 font-bold">↓</div>
+                <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border-l-8 border-blue-500 shadow-lg">
+                    <p class="text-2xl font-bold mb-3 text-blue-800">フェーズ3: カムバック割引（5%オフ）</p>
+                    <p class="text-lg text-gray-700">習慣が崩れた時、忙しい時、試験前など、<strong>必要な時にだけ</strong>スポット利用</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CTA Section -->
+    <section id="contact" class="py-20 px-6 gradient-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">NEXT STEP</h2>
+            <div class="text-xl md:text-2xl mb-12 space-y-4">
+                <p>コンサルタントによる現在の学習状況ヒアリング</p>
+                <p class="text-4xl">↓</p>
+                <p>弊社サービスとの相性を検討しつつ、<br>学習課題や具体的な目標・カリキュラムをご提案</p>
+            </div>
+            <div class="bg-white bg-opacity-20 backdrop-blur-lg p-10 rounded-2xl mb-12">
+                <p class="text-3xl md:text-4xl font-black">「たった3ヶ月で、一生の学習スキル」</p>
+            </div>
+            <a href="https://lin.ee/ColWYJw" class="inline-block bg-white text-teal-600 px-16 py-6 rounded-full text-2xl font-bold hover:bg-gray-100 transition-all cta-pulse shadow-2xl">
+                無料相談を予約する
+            </a>
+            <p class="mt-12 text-xl opacity-90">さあ、あなたの学習を根本から変えましょう!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-6 text-center">
+        <p class="text-lg mb-2">株式会社Gen AI</p>
+        <p class="text-sm opacity-75 mb-4">AI×英語コーチング</p>
+        <p class="text-xs opacity-60 mt-6">© 2025 Gen AI Co., Ltd. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
