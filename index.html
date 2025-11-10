@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI×英語コーチング | Gen AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+JP:wght+400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+JP:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Noto Sans JP', 'Inter', sans-serif;
@@ -130,7 +130,9 @@
             <h2 class="text-3xl sm:text-5xl font-bold text-center mb-12 sm:mb-16 text-gray-800">
                 圧倒的コストパフォーマンス
             </h2>
-            <div class="bg-white rounded-2xl shadow-2xl overflow-x-auto"> <table class="w-full min-w-[500px] sm:min-w-full text-center"> <thead>
+            <div class="bg-white rounded-2xl shadow-2xl overflow-x-auto">
+                <table class="w-full min-w-[500px] sm:min-w-full text-center">
+                    <thead>
                         <tr class="bg-gradient-to-r from-gray-700 to-gray-800 text-white">
                             <th class="py-4 sm:py-6 px-3 sm:px-4 text-base sm:text-xl font-bold">項目</th>
                             <th class="py-4 sm:py-6 px-3 sm:px-4 text-base sm:text-xl font-bold bg-blue-600">一般的なサービス</th>
@@ -202,6 +204,7 @@
                             <li>✓ 適切なレベルの長文を選定</li>
                             <li>✓ <strong>ChatGPT</strong>で翻訳・文法分析</li>
                             <li>✓ 何度も音読（英語脳を作る）</li>
+                            
                         </ul>
                     </div>
                     <div class="bg-pink-50 p-5 sm:p-6 rounded-xl border-l-4 border-pink-500">
@@ -222,7 +225,9 @@
             <h2 class="text-3xl sm:text-5xl font-bold text-center mb-12 sm:mb-16">
                 安心の料金体系
             </h2>
-            <div class="bg-white text-gray-800 rounded-2xl shadow-2xl overflow-x-auto"> <table class="w-full min-w-[400px] sm:min-w-full"> <thead>
+            <div class="bg-white text-gray-800 rounded-2xl shadow-2xl overflow-x-auto">
+                <table class="w-full min-w-[400px] sm:min-w-full">
+                    <thead>
                         <tr class="bg-gradient-to-r from-teal-600 to-cyan-600 text-white">
                             <th class="py-4 sm:py-6 px-3 sm:px-6 text-lg sm:text-2xl font-bold">コース</th>
                             <th class="py-4 sm:py-6 px-3 sm:px-6 text-lg sm:text-2xl font-bold">期間</th>
@@ -273,7 +278,7 @@
         </div>
     </section>
 
-     <section id="contact" class="py-16 sm:py-20 px-4 sm:px-6 gradient-bg text-white relative overflow-hidden">
+      <section id="contact" class="py-16 sm:py-20 px-4 sm:px-6 gradient-bg text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10">
             <div class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
             <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -295,11 +300,116 @@
         </div>
     </section>
 
+    <div id="legal-modal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-70 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] overflow-y-auto transform transition-all duration-300 ease-in-out">
+            <div class="p-6 sm:p-8">
+                <div class="flex justify-between items-center mb-6 border-b pb-4">
+                    <h3 class="text-2xl sm:text-3xl font-bold text-gray-800">特定商取引法に基づく表示</h3>
+                    <button id="close-modal" class="text-gray-500 hover:text-gray-800 transition-colors text-3xl font-light">
+                        &times;
+                    </button>
+                </div>
+                <div class="space-y-6">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200 border border-gray-200 rounded-lg">
+                            <tbody class="bg-white divide-y divide-gray-200 text-sm sm:text-base">
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">販売事業者名</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">株式会社Gen AI</td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">運営責任者</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">小橋一元</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">所在地</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">541-0042<br>大阪市中央区今橋1-7-19-11F</td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">電話番号</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">070-5376-4571</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">メールアドレス</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">mindstaff.yota@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">役務の対価</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">
+                                        <strong>基本コース（3ヶ月）:</strong> 70,000円（税抜） / 77,000円（税込）<br>
+                                        <strong>延長オプション（1ヶ月ごと）:</strong> 20,000円（税抜） / 22,000円（税込）
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">対価以外に<br>必要となる費用</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">
+                                        ・消費税<br>
+                                        ・市販の教材費（数千円程度。教材の使用をご希望の場合、お客様にてご購入が必要です）<br>
+                                        ・インターネット接続にかかる通信料（お客様負担）
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">支払方法</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">銀行振込</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">支払時期</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">サービスの申込時または指定期日まで</td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">役務の提供時期</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">代金のお支払い確認後、速やかにサービス提供を開始いたします。</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">返品・交換・<br>キャンセルに関する特約</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">役務の性質上、お客様のご都合による返品・返金は原則としてお受けできません。詳細については、申込時に別途定める規約をご確認ください。</td>
+                                </tr>
+                                <tr>
+                                    <th class="px-3 sm:px-6 py-4 font-bold text-left text-gray-700 w-1/4 align-top border-r">動作環境</th>
+                                    <td class="px-3 sm:px-6 py-4 whitespace-normal text-gray-800">インターネット接続環境、LINEアプリ、AIツール（ChatGPTなど）を利用できる環境が必要となります。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
     <footer class="bg-gray-900 text-white py-8 sm:py-12 px-4 sm:px-6 text-center">
-        <p class="text-base sm:text-lg mb-2">株式会社Gen AI</p>
-        <p class="text-xs sm:text-sm opacity-75 mb-4">AI×英語コーチング</p>
-        <p class="text-xs opacity-60 mt-6">© 2025 Gen AI Co., Ltd. All rights reserved.</p>
+        <div class="max-w-6xl mx-auto">
+            <button id="open-modal" class="text-sm sm:text-base font-semibold text-gray-300 hover:text-white transition-colors underline mb-4 focus:outline-none">
+                特定商取引法に基づく表示
+            </button>
+            <p class="text-base sm:text-lg mb-2">株式会社Gen AI</p>
+            <p class="text-xs sm:text-sm opacity-75 mb-4">AI×英語コーチング</p>
+            <p class="text-xs opacity-60 mt-6">© 2025 Gen AI Co., Ltd. All rights reserved.</p>
+        </div>
     </footer>
 
-</body>
+    <script>
+        const openModalButton = document.getElementById('open-modal');
+        const closeModalButton = document.getElementById('close-modal');
+        const legalModal = document.getElementById('legal-modal');
+
+        // モーダルを開く
+        openModalButton.addEventListener('click', () => {
+            legalModal.classList.remove('hidden');
+            document.body.classList.add('overflow-hidden'); // 背景スクロールを禁止
+        });
+
+        // モーダルを閉じる
+        closeModalButton.addEventListener('click', () => {
+            legalModal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden'); // 背景スクロールを許可
+        });
+
+        // モーダルの背景クリックで閉じる
+        legalModal.addEventListener('click', (e) => {
+            if (e.target === legalModal) {
+                legalModal.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            }
+        });
+    </script>
+    </body>
 </html>
